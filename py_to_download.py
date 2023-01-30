@@ -1,5 +1,3 @@
-import time
+import os
 
-while True:
-    time.sleep(1)
-    print("Hello")
+os.system("msg %username% Hello")
